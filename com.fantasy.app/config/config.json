@@ -1,0 +1,50 @@
+{
+  "mysql" : {
+      "development": {
+      "username": "root",
+      "password": "Yoyokartik@28",
+      "database": "n_dream11",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+
+    "test": {
+      "username": "root",
+      "password": "Yoyokartik@28",
+      "database": "n_dream11",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+
+    "production": {
+      "username": "root",
+      "password": "Yoyokartik@28",
+      "database": "n_dream11",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  },
+
+  "redis" : {
+    "development": {
+      "master" : "default",
+      "password" : "redistest",
+      "host" : "127.0.0.1",
+      "port" : 6379
+    },
+
+    "test": {
+      "master" : "default",
+      "password" : "redistest",
+      "host" : "127.0.0.1",
+      "port" : 6379
+    },
+
+    "production": {
+      "master" : "default",
+      "password" : "redistest",
+      "host" : "127.0.0.1",
+      "port" : 6379
+    }
+  }
+}
